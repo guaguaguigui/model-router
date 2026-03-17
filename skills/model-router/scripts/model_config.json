@@ -1,0 +1,27 @@
+{
+  "default_model": {
+    "name": "qwen3.5:9b",
+    "type": "local",
+    "endpoint": "http://localhost:11434/api/generate",
+    "provider": "ollama"
+  },
+  "backup_models": [
+    {
+      "name": "qwen3.5:9b",
+      "type": "local",
+      "endpoint": "http://localhost:11434/api/generate",
+      "provider": "ollama",
+      "priority": 1
+    },
+    {
+      "name": "volcengine:ark-code-latest",
+      "type": "cloud",
+      "provider": "volcengine",
+      "priority": 2,
+      "endpoint": "https://ark.cn-beijing.volces.com/api/v3/chat/completions",
+      "api_key_env": "VOLCENGINE_API_KEY"
+    }
+  ],
+  "cache_ttl": 3600,
+  "max_retries": 3
+}

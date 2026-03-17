@@ -1,0 +1,10 @@
+{
+  "name": "Multi-Model Router",
+  "description": "自动路由AI请求到本地Ollama模型或云端模型，最大程度节省云端token消耗。支持缓存、自动降级、成本统计。",
+  "version": "1.0.0",
+  "author": "XC",
+  "license": "MIT",
+  "tags": ["model", "routing", "ollama", "token-saver", "cost-saving"],
+  "requirements": ["requests"],
+  "entrypoint": "scripts/model_router.py"
+}
