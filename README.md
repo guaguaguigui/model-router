@@ -43,7 +43,7 @@ git clone https://github.com/guaguaguigui/model-router.git
 
 ## 使用
 
-见 [SKILL.md](./SKILL.md) 详细说明。
+详细使用说明见 [SKILL.md](./skills/model-router/SKILL.md)。
 
 ### 快速开始
 
@@ -68,7 +68,7 @@ print(f"模型: {result['model_used']}, 花费: ${result['cost']:.4f}")
 
 ## 配置
 
-编辑 `scripts/model_config.json` 修改：
+编辑 `skills/model-router/scripts/model_config.json` 修改：
 - 模型优先级
 - API端点
 - 缓存过期时间
