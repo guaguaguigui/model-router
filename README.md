@@ -43,7 +43,7 @@ git clone https://github.com/guaguaguigui/model-router.git
 
 ## 使用
 
-见 [SKILL.md](./SKILL.md) 详细说明。
+详细使用说明见 [SKILL.md](./skills/model-router/SKILL.md)。
 
 ### 快速开始
 
@@ -68,7 +68,7 @@ print(f"模型: {result['model_used']}, 花费: ${result['cost']:.4f}")
 
 ## 配置
 
-编辑 `scripts/model_config.json` 修改：
+编辑 `skills/model-router/scripts/model_config.json` 修改：
 - 模型优先级
 - API端点
 - 缓存过期时间
@@ -79,6 +79,15 @@ print(f"模型: {result['model_used']}, 花费: ${result['cost']:.4f}")
 - Ollama 本地运行（可选，但推荐最大化节省）
 - 已有本地模型（如 qwen3.5:9b, llama3.1:8b）
 - 云端API密钥（配置到环境变量）
+
+## 支持我
+
+如果你觉得这个工具帮你省了不少钱，欢迎请我喝杯咖啡☕，帮助我持续维护更新：
+
+- GitHub Sponsors: [@guaguaguigui](https://github.com/sponsors/guaguaguigui)
+- 微信/支付宝: 看个人主页
+
+你的支持会帮助我继续开发更多有用的开源工具，也能帮我续费火山引擎token，继续改进这个项目 :)
 
 ## License
 
