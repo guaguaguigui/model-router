@@ -1,0 +1,28 @@
+{
+  "providers": {
+    "volcengine": {
+      "monthly_total": 18000,
+      "monthly_used": 0,
+      "weekly_limit": 9000,
+      "weekly_used": 0,
+      "daily_limit": 1200,
+      "daily_used": 0,
+      "reset_cycle": "monthly",
+      "last_reset": "2026-03-23T09:15:34.822985",
+      "warning_threshold": 0.15,
+      "critical_threshold": 0.05,
+      "enabled": true
+    },
+    "zhipu": {
+      "monthly_total": Infinity,
+      "monthly_used": 0,
+      "enabled": true
+    }
+  },
+  "alerts": {
+    "last_warning": null,
+    "last_critical": null,
+    "warning_cooldown_hours": 6,
+    "critical_cooldown_hours": 1
+  }
+}
